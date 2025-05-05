@@ -1,0 +1,92 @@
+/* Global Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page Background and Font */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('19609.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Container Styling */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+.Singup h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Input Field Styling */
+.inp {
+    display: flex;
+    flex-direction: column;
+}
+
+.inp input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.inp input:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+/* Submit Button Styling */
+.inp button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.inp button:hover {
+    background-color: #0056b3;
+}
+
+/* Login Button Styling */
+.login {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login button {
+    background: none;
+    border: none;
+    color: #007BFF;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.login button:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
