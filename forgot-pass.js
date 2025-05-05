@@ -5,7 +5,7 @@ document.getElementById('resert').addEventListener('click' , () => {
         alert('enter email');
     }else {
         alert('email sent...✅');
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
     };
 
 });
